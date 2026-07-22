@@ -14,3 +14,5 @@ if __name__ == "__main__":
     marks = 82
     print("Marks:", marks)
     print("Grade:", calculate_grade(marks))
+def topper(marks_dict):
+    return max(marks_dict, key=marks_dict.get)
