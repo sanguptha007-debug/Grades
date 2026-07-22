@@ -14,3 +14,5 @@ if __name__ == "__main__":
     marks = 82
     print("Marks:", marks)
     print("Grade:", calculate_grade(marks))
+def average(marks_list):
+    return sum(marks_list) / len(marks_list)
